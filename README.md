@@ -6,6 +6,18 @@ Running
 dotnet run --project src/PalTracker
 ```
 
+Running Tests
+
+```bash
+dotnet test test/PalTrackerTests
+```
+
+or specific tests
+
+```bash
+dotnet test test/PalTrackerTests --filter PalTrackerTests.[TestClass]
+```
+
 Binds on `localhost:5000` (http) and `localhost:5001` (https)
 
 Releasing
