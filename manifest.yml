@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: pal-tracker-dotnet
+  - name: pal-tracker-dotnet-dev
     path: src/PalTracker/bin/Debug/netcoreapp2.1
     routes:
       - route: pal-tracker-dotnet-dev.apps.pcfone.io
